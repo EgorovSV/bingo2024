@@ -1,0 +1,28 @@
+td table {
+  border: 1px solid black;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+table {
+  margin: auto;
+}
+th {
+  background-color: red;
+  font-family: Georgia;
+  color: white;
+}
+
+td {
+  vertical-align: bottom;
+  font-size: x-large;
+}
+
+td table tr th,
+td table tr td {
+  border: 2px solid black;
+  width: 60px;
+  text-align: center;
+}
+td table tr td {
+  line-height: 60px;
+}
