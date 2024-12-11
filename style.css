@@ -21,24 +21,33 @@ td {
 td table tr th,
 td table tr td {
   border: 2px solid black;
-  width: 60px;
+  width: 120px;
   text-align: center;
 }
+td table tr td {
+  line-height: 120px;
+}
+
 @media screen and (max-width: 1300px) {
+  td table tr th,
+  td table tr td {
+    width: 60px;
+  }
+
   td table tr td {
     line-height: 60px;
   }
 }
-/* {
-  opacity: 0.5;
-  color: BLACK;
-  position: absolute;
-  right: 0;
 
-  text-align: right;
-  text-decoration: none;
-  float: right;
-}*/
+@media screen and (max-width: 2000px) {
+  td table tr th,
+  td table tr td {
+    width: 80px;
+  }
+  td table tr td {
+    line-height: 80px;
+  }
+}
 
 a,
 div {
