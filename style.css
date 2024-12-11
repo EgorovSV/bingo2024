@@ -14,6 +14,7 @@ th {
 
 td {
   vertical-align: bottom;
+  padding: 0px;
   font-size: x-large;
 }
 
@@ -23,6 +24,30 @@ td table tr td {
   width: 60px;
   text-align: center;
 }
-td table tr td {
-  line-height: 60px;
+@media screen and (max-width: 1300px) {
+  td table tr td {
+    line-height: 60px;
+  }
+}
+/* {
+  opacity: 0.5;
+  color: BLACK;
+  position: absolute;
+  right: 0;
+
+  text-align: right;
+  text-decoration: none;
+  float: right;
+}*/
+
+a,
+div {
+  opacity: 0.4;
+  color: BLACK;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  float: right;
 }

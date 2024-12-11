@@ -16,6 +16,14 @@ function runLotto() {
   }
   body.appendChild(table);
   table.appendChild(tbdy);
+
+  var watermark = document.createElement("a");
+  watermark.href = "https://github.com/EgorovSV";
+  watermark.target = "_blank";
+  watermark.appendChild(document.createTextNode("egorovSV"));
+  var div = document.createElement("div");
+  div.appendChild(watermark);
+  body.appendChild(div);
 }
 
 function createTabel() {
@@ -24,7 +32,7 @@ function createTabel() {
   var tbdy = document.createElement("tbody");
 
   const numbers = [];
-  for (var i = 0; i < 5; i++) {
+  for (var i = 0; i < 6; i++) {
     var tr = document.createElement("tr");
     for (var j = 0; j < 5; j++) {
       if (i == 0) {
